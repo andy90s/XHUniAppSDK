@@ -1,0 +1,43 @@
+{
+  "name": "XHUniAppSDK",
+  "version": "0.1.0",
+  "summary": "A short description of XHUniAppSDK.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/梁先华/XHUniAppSDK",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "梁先华": "909901234@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/梁先华/XHUniAppSDK.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source_files": "XHUniAppSDK/Classes/**/*",
+  "libraries": [
+    "c++",
+    "iconv"
+  ],
+  "frameworks": [
+    "JavaScriptCore",
+    "CoreMedia",
+    "MediaPlayer",
+    "AVFoundation",
+    "AVKit",
+    "GLKit",
+    "OpenGLES",
+    "CoreText",
+    "QuartzCore",
+    "CoreGraphics",
+    "QuickLook",
+    "CoreTelephony",
+    "AssetsLibrary",
+    "CoreLocation",
+    "AddressBook"
+  ]
+}

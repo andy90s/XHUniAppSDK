@@ -1,0 +1,6 @@
+framework module XHUniAppSDK {
+  umbrella header "XHUniAppSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

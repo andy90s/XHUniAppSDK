@@ -38,9 +38,9 @@
 
 /* Begin PBXFileReference section */
 		05B41521B697BCEF1CC874C4 /* Pods_XHUniAppSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XHUniAppSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		27355F007DEE3B8620D898F9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		27355F007DEE3B8620D898F9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		2F487E6C4D33C20CF2F59996 /* Pods-XHUniAppSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XHUniAppSDK_Example.release.xcconfig"; path = "Target Support Files/Pods-XHUniAppSDK_Example/Pods-XHUniAppSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
-		35E0E5DE9FFFC0169A8A7851 /* XHUniAppSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = XHUniAppSDK.podspec; path = ../XHUniAppSDK.podspec; sourceTree = "<group>"; };
+		35E0E5DE9FFFC0169A8A7851 /* XHUniAppSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XHUniAppSDK.podspec; path = ../XHUniAppSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		42C7C4908533C01054F26B49 /* Pods-XHUniAppSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XHUniAppSDK_Example.debug.xcconfig"; path = "Target Support Files/Pods-XHUniAppSDK_Example/Pods-XHUniAppSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		541D8BB77AEB79F14C405AF1 /* Pods-XHUniAppSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XHUniAppSDK_Tests.debug.xcconfig"; path = "Target Support Files/Pods-XHUniAppSDK_Tests/Pods-XHUniAppSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* XHUniAppSDK_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XHUniAppSDK_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,7 +65,7 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8981B401113E4D797C5EBEBF /* Pods-XHUniAppSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XHUniAppSDK_Tests.release.xcconfig"; path = "Target Support Files/Pods-XHUniAppSDK_Tests/Pods-XHUniAppSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		97D5BA8A68560F8F3EA61F75 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		97D5BA8A68560F8F3EA61F75 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		FFC0BA1D24593C40E7727A9D /* Pods_XHUniAppSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XHUniAppSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -103,7 +103,6 @@
 				541D8BB77AEB79F14C405AF1 /* Pods-XHUniAppSDK_Tests.debug.xcconfig */,
 				8981B401113E4D797C5EBEBF /* Pods-XHUniAppSDK_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -259,6 +258,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
